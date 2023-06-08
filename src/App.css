@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.menu img{
+  width: 180px;
+}
+
+.film_card img{
+  height: 200px;
+  object-fit: contain;
+}
+
+.film-box img{
+  height: 400px;
+  object-fit: contain;
+}
+
+#film-details{
+  width: 400px;
+}
+
+.modal-show{
+  /* background-color: rgba(0, 0, 0, 0.2); */
+  position: absolute;
+  width: 60vw;
+  height: 420px;
+  z-index: 99;
+  top: 210px;
+  left: 740px;
+  transform: translate(-50%, -50%);
+}
+
+#film-details{
+  position: relative;
+}
